@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+   
+}
+
+nav {
+    display: inline-flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    display: flex;
+    margin: 5px 40px;
+    cursor: pointer;
+    font-size: 18px;
+}
+@media screen and (max-width : 400px)
+{
+nav ul li
+{
+ margin: 5px 5px;
+}
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 23px;
+    border-radius: 30px;
+    margin: 5px 100px;
+    cursor: pointer;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
+
+#logo {
+    width: 65px;
+    height: 65px;
+    margin: 35px 95px;
+}
+
+.content {
+    margin: 45px 100px;
+}
+
+.content #heading {
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+#heading span {
+    color: #FF9800;
+}
+
+#wording {
+    margin-top: 30px;
+    width: 36%;
+    font-size: 18px;
+    letter-spacing: .8px;
+}
+
+.content a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 23px;
+    border-radius: 30px;
+    background-color: #D78000;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.content a:hover {
+    background-color: #ff9900;
+}
+
+.btn {
+    margin-top: 50px;
+}
+
+
+    
+
+.coin-list  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+    
+}
+
+.coin   {
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 4px 15px;
+}
+
+
+
+.coin img {
+    width: 45px;
+    height: 45px;
+}
+
+.words{
+    padding: 4px;
+    margin: 0px 10px;
+    line-height: 25px;
+}
+
+.words p {
+    color: #FF9800;
+}
+/* Light mode (default) */
+body {
+    background-image: url(pink-7761356_1280.webp);
+    color: black;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s, color 0.5s;
+    width: 100%;
+    height: 100vh;
+    /* background-image: url('background.png'); */
+    background-size: cover;
+    color:black;
+  }
+  
+  .container1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Dark mode */
+  body.dark-mode {
+    background-image: url(background.png);
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    /* background-image: url('background.png'); */
+    background-size: cover;
+    color: white;
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
